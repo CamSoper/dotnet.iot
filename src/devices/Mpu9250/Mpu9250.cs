@@ -271,7 +271,7 @@ namespace Iot.Device.Imu
             if (_autoDispose)
             {
                 _i2cDevice?.Dispose();
-                _i2cDevice = null;
+                _i2cDevice = null!;
             }
         }
 
