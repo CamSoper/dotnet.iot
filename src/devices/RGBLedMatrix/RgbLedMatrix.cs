@@ -361,7 +361,7 @@ namespace Iot.Device.LEDMatrix
                 }
 
                 _controller.Dispose();
-                _controller = null;
+                _controller = null!;
             }
         }
 
