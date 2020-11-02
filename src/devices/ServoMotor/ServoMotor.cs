@@ -100,7 +100,7 @@ namespace Iot.Device.ServoMotor
         public void Dispose()
         {
             _pwmChannel?.Dispose();
-            _pwmChannel = null;
+            _pwmChannel = null!;
         }
     }
 }
